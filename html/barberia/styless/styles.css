@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; /* los pading y los border no crescan mas de lo que se ha dicho */
+    
+}
+
+body{
+    margin: 0; 
+}
+.Header_container
+{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    justify-content: space-evenly;
+}
+
+.container_header_nav
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+nav li{
+    display: inline;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
