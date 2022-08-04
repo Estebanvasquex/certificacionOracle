@@ -39,3 +39,75 @@ nav a{
     text-decoration: none;
 
 }
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    
+
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%; /* EN ESTE CASO DE LOS 900 PIXELES CADA UNO SE LLEVA EL 30% EN TOTAL 90% ESE 10% SOBRANTE SE DIVIDE EN LAS TARJETAS */
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+   border: 2px solid black;
+   border-radius: 10px;
+
+    
+}
+
+.productos li:hover
+{
+    border-color: #c78c19;
+    border-width: 5px;
+
+}
+
+.productos li:active
+{
+    border-color: green;
+
+}
+
+.productos li img
+{
+    width: 220px;
+}
+
+.productos h2
+{
+
+}
+.producto-descripcion
+{
+    font-size: 18px;
+}
+
+.producto-precio
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color: #eec36c;
+    /* background: url(barba.jpg); */
+}
+
+.copy{
+    font-size: 13px;
+    margin: 20px;
+
+}
