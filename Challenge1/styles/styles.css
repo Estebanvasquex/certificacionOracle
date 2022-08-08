@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+header
+{
+    margin-top: 20px;
+
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.container_respuesta
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 34px;
+
+}
+
+form textarea{
+   
+    border: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#F3F5FC;
+}
+
+
+body main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body main button
+{
+    display:block;
+
+}
+
+textarea
+{
+    height: 432px;
+    border: 0;
+    outline:none
+   
+
+}
+
+button
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    border: 0.5;
+    font-size: 16px;
+    border-color: #0A3871;
+    
+
+}
+
+main div button
+{
+    width: 279px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-color: #0A3871;
+    
+
+}
+
+main div textarea
+{
+    width: 90%;   
+    margin: 0 auto;
+    border-radius: 0;
+    
+
+}
+
+form textarea + button 
+{
+    background-color: #0A3871;
+
+}
+
+form textarea + button + button
+{
+    background-color: #FFFFFF;
+
+}
