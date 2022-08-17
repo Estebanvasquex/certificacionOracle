@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
     <header>
@@ -15,16 +16,20 @@
     <main>
 
         <form class="container" action="enviar">
-            
-            <textarea class="mensaje" name="textoInicio" id="" cols="30" rows="10" placeholder="Ingresa texto"></textarea>
-
-            <button> Encriptar</button>
-            <button> Desencriptar</button>
+            <input type="text" id="prueba" >
+            <input type="text" value="hola">
+            <textarea type="text" class="mensaje" name="textoInicio" id="mensaje"  cols="30" 
+            rows="10" placeholder="Ingresa texto"></textarea>
+        
+           
+            <input type="button" onclick="encriptar2()" value="Encriptar" >
+            <input type="button" onclick="encriptar3()" value="Desencriptar" >
 
         </form>
-        <div class="container_respuesta">
-            <textarea class="mensaje2" name="resultado" id="" cols="30" rows="10"></textarea>
-            <button>Copiar</button>
+        <div class="container_respuesta" id="respuestaId">
+            <p id="respuesta2"></p>
+            <textarea class="mensaje2" name="resultado" id="mensaje2" cols="30" rows="10"></textarea>
+            <input type="button" onclick="encriptar3()" value="Copiar" >
         </div>
 
 
